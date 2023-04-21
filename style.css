@@ -1,0 +1,155 @@
+body {
+    width: 1440px;
+    height:500px;
+    font-size: 18px;
+    position:relative;
+    left: 500px;
+    top: 100px;
+    background-color: #e4e1e1;
+}
+
+.wrapper {
+    width: 300px;
+    height: 450px;
+    text-align: left; 
+    background-color: #5f3ffc;
+    display: inline;
+    float: left;
+    border-radius: 15px;
+    box-shadow: 3px;
+    
+}
+
+.yourResult{
+    text-align: center;
+    border-color: black;
+    width: 300px;
+    height: 50px;
+    margin-top: 25px;
+    color: #fff;
+    font-size: 18px;
+    opacity: 0.7;
+}
+
+.resultNumber{
+    color: #fff;
+    text-align: center;
+    border-radius: 100px;
+    width:200px;
+    height:200px;
+    margin-left: 50px;
+    background-color: #4a24cf;
+    background:linear-gradient(#4a24cf,#4534f2) ;
+    
+}
+.resultNumber p{
+    margin-left: 10px;
+}
+
+.resultNumber label{
+    margin-top: 10px;
+    font-size: 60px;
+    font-weight: bold;
+
+}
+
+.text{
+    width: 350px;
+}
+.header h4{
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+    margin-top: 10px;
+
+}
+.header p{
+    text-align: center;
+    margin-left: 40px;
+    margin-right: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+.wrapperTwo {
+    width: 300px;
+    height: 450px;
+    display: block;
+    text-align: left; 
+    background-color:#fff;
+    float: left;
+    box-shadow: 0.1px 0.1px hsl(252, 100%, 67%);
+    border-radius:15px 15px 15px 15px;
+    border-left: 2px solid #4534f2;
+    
+    
+}
+
+.summary{
+    font-weight: bolder;
+    font-size: 18px;
+    margin-left: 25px;
+    margin-top: 25px;
+}
+
+.reactionBox{
+    width: 250px;
+    height: 40px;
+    background-color:#fff6f5;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 25px;
+    color:hsl(0, 100%, 67%) ;
+}
+.reactionBox label{
+    margin-top: 6px;
+    
+}
+.memoryBox{
+    width: 250px;
+    height: 40px;
+    background-color: #fffbf2;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 25px;
+    color: hsl(39, 100%, 56%);
+}
+.memoryBox label{
+    margin-top: 6px;
+}
+.verbalBox{
+    width: 250px;
+    height: 40px;
+    background-color: #f2fbfa;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 25px;
+    color: hsl(166, 100%, 37%);
+}
+.verbalBox label{
+    margin-top: 6px;
+}
+.visualBox{
+    width: 250px;
+    height: 40px;
+    background-color:#f3f3fd;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 25px;
+    color: hsl(234, 85%, 45%);
+}
+.visualBox label{
+    margin-top: 6px;
+}
+.buton .btn{
+    width: 250px;
+    height: 50px;
+    margin-top: 30px;
+    margin-left:25px ;
+    background-color: #303b59;
+    color: #fff;
+    border-radius: 30px;
+}
+.buton .btn:hover{
+    background-color: #4936f2;
+    color: #fff;
+}
